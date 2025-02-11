@@ -1,0 +1,58 @@
+# STM32CubeIDE 빌드 폴더 및 생성 파일
+/.settings/
+/Debug/
+/Release/
+/build/
+/out/
+/generated/
+
+# Eclipse 및 STM32CubeIDE 관련 파일
+/.metadata/
+/.cproject
+.project
+*.launch
+
+# 자동 생성된 코드 및 설정
+*.elf
+*.bin
+*.hex
+*.map
+*.o
+*.d
+*.su
+*.lst
+*.srec
+
+# Core 및 CubeMX 관련 파일
+**/Core/Inc/*
+!**/Core/Inc/*.h
+**/Core/Src/*
+!**/Core/Src/main.c
+!**/Core/Src/stm32*_it.c
+!**/Core/Src/system_stm32*.c
+
+# CubeMX 관련 파일 (필요 없는 경우)
+*.ioc
+
+# Object files
+*.o
+*.a
+*.lib
+
+# Backup 및 기타 불필요한 파일
+*.bak
+*.swp
+*.swo
+*.tmp
+
+# Keil 또는 IAR 같은 다른 IDE 관련 파일
+*.uvprojx
+*.uvoptx
+*.eww
+*.ewp
+*.ewd
+
+# Log 및 환경 설정 관련 파일
+*.log
+*.dep
+*.bak
